@@ -7,3 +7,5 @@ A mobile app for ordering take-out food with a simple, user-friendly interface, 
 Using SQL Server with Entity Framework Core (Code First).
 
 ![Database](assets/DatabaseDiagram.png)
+## Task management ##
+https://trello.com/invite/b/66ec6d6cbcdf9465485baa95/ATTIbf5b43704efcbaaea5023c46a43b79a4CB8CAB32/take-out-app
