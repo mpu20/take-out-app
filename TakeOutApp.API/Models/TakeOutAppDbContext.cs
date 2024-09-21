@@ -9,6 +9,8 @@ namespace TakeOutApp.API.Models
         public DbSet<Order> Orders { get; set; } = null!;
         public DbSet<OrderDetail> OrderDetails { get; set; } = null!;
         public DbSet<Customer> Customers { get; set; } = null!;
+        public DbSet<Staff> Staffs { get; set; } = null!;
+        public DbSet<Category> Categories { get; set; } = null!;
 
         public TakeOutAppDbContext(DbContextOptions<TakeOutAppDbContext> options) : base(options)
         {

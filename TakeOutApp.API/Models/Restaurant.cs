@@ -12,5 +12,6 @@ namespace TakeOutApp.API.Models
         [Required]
         public string Address { get; set; }
         public List<MenuItem>? MenuItems { get; set; }
+        public List<Staff>? Staffs { get; set; }
     }
 }
