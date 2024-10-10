@@ -11,7 +11,7 @@ namespace TakeOutApp.API.Models
         public DateTime OrderDate { get; set; }
         [Required]
         public int CustomerId { get; set; }
-        public Customer? Customer { get; set; }
+        public User? Customer { get; set; }
         public List<OrderDetail>? OrderDetails { get; set; }
     }
 }
